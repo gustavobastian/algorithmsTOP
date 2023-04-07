@@ -4,7 +4,7 @@
  */
 export function mergeSort(arr){
     let helper=[];
-    let d=arr.length;
+    let d=arr.length-1;
     console.log(d)
     localSort(arr,0,d,helper)    
     return arr;
